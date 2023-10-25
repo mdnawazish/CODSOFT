@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+
+}
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+/* removing default styling of li items */
+li{
+    list-style: none;
+}
+
+/* removing the default decoration of a tags */
+a{
+    text-decoration: none;
+    color: white
+}
+
+/* giving default design to every button  */
+button{
+    background: #aeaec9;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+input{
+    padding: 5px 10px;
+}
+header{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(5.jpg); */
+    /* background: #cfad3d; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    position: relative;
+}
+
+/* designing the navigation menu */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+    background-color: aquamarine;
+
+}
+
+nav img{
+    height: 129px ;
+    width: 151px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    color: black;
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+
+hr{
+    margin: 0 100px;
+}
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h1{
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20bc7E;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+
+}

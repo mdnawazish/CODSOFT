@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+
+}
+/* removing default styling of li items */
+li{
+    list-style: none;
+}
+
+/* removing the default decoration of a tags */
+a{
+    text-decoration: none;
+    color: white
+}
+
+/* giving default design to every button  */
+button{
+    background: #aeaec9;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+input{
+    padding: 5px 10px;
+}
+body{
+    background-color: #f6f8fa;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+
+/* designing the navigation menu */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+
+}
+
+nav img{
+    height: 129px ;
+    width: 151px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+
+hr{
+    margin: 0 100px;
+}
+
+/* designing the div inside the header */
+header div{
+    color: #ffffff;
+    margin-left: 150px;
+    margin-bottom: 85px;
+}
+
+header div h1{
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+header div p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    width: 410px;
+
+}
+
+.main{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: left;
+    color: white;
+}
+
+.main h1{
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+.main p{
+    margin: 30px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+
+}
+
